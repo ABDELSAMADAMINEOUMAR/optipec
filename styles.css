@@ -1209,6 +1209,10 @@ header.nav.nav-open .nav-toggle-bar:nth-child(3) {
   background: var(--clr-navy);
 }
 
+.purpose-card:nth-child(2):hover .purpose-icon i {
+  color: #fff;
+}
+
 .purpose-label {
   font-size: 13px;
   font-weight: 700;
