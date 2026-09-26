@@ -186,7 +186,7 @@ header.nav .wrap,
 }
 
 body {
-  padding-top: 132px;
+  padding-top: 81px;
 }
 
 /* ---- Nav Links ---- */
@@ -1625,11 +1625,13 @@ footer {
   }
 
   body {
-    padding-top: 96px;
+    padding-top: 43px;
   }
 
   .nav-toggle {
     display: block;
+    transform: scale(0.75);
+    transform-origin: right center;
   }
 
   .nav-inner {
