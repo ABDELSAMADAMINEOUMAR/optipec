@@ -155,7 +155,9 @@ header.nav .wrap,
 }
 
 .brand img {
-  height: 100px;
+  height: 64px;
+  transform: scale(1.3);
+  transform-origin: left center;
   width: auto;
   display: block;
 }
@@ -1613,11 +1615,13 @@ footer {
 
   .nav-inner {
     position: relative;
-    padding: 4px 16px;
+    padding: 2px 16px;
   }
 
   .brand img {
-    height: 60px;
+    height: 38px;
+    transform: scale(1.35);
+    transform-origin: left center;
   }
 
   .nav .nav-links {
