@@ -582,8 +582,8 @@ header.nav.nav-open .nav-toggle-bar:nth-child(3) {
 }
 
 .opti-section {
-  padding: var(--section-py) 0;
-  position: relative;
+    padding: 0px !important;
+    position: relative;
 }
 
 /* Alternating backgrounds for clear visual rhythm */
