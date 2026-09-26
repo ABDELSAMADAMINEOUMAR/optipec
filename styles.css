@@ -82,6 +82,10 @@ body {
   flex-direction: column;
 }
 
+footer {
+  margin-top: auto;
+}
+
 [id] {
   scroll-margin-top: 140px;
 }
