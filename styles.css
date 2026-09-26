@@ -1652,7 +1652,7 @@ footer {
     display: flex;
   }
 
-  .nav .nav-links a {
+  .nav .nav-links > a:not(.btn-primary) {
     margin: 0;
     padding: 14px 16px;
     border-radius: 10px;
@@ -1662,11 +1662,11 @@ footer {
     color: var(--clr-text);
   }
 
-  .nav .nav-links a::after {
+  .nav .nav-links > a::after {
     display: none;
   }
 
-  .nav .nav-links a:hover {
+  .nav .nav-links > a:not(.btn-primary):hover {
     background: var(--clr-navy-light);
     color: var(--clr-navy);
   }
@@ -1679,6 +1679,7 @@ footer {
     font-size: 16px;
     background: var(--clr-navy) !important;
     color: #fff !important;
+    box-shadow: none !important;
   }
 
   .nav-lang {
