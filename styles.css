@@ -1609,11 +1609,11 @@ footer {
 
   .nav-inner {
     position: relative;
-    padding: 6px 20px;
+    padding: 4px 16px;
   }
 
   .brand img {
-    height: 68px;
+    height: 48px;
   }
 
   .nav .nav-links {
