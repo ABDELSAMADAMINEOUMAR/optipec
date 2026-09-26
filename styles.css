@@ -1667,12 +1667,14 @@ footer {
     color: var(--clr-navy);
   }
 
-  .nav .btn-primary,
-  .nav .cta {
+  .nav .nav-links .btn-primary,
+  .nav .nav-links .cta {
     text-align: center;
     margin-top: 12px;
     padding: 16px;
     font-size: 16px;
+    background: var(--clr-navy) !important;
+    color: #fff !important;
   }
 
   .nav-lang {

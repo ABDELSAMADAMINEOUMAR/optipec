@@ -312,6 +312,12 @@ document.addEventListener('DOMContentLoaded', function () {
           toggle.setAttribute('aria-expanded', 'false');
         });
       });
+      document.addEventListener('click', function (e) {
+        if (header.classList.contains('nav-open') && !header.contains(e.target)) {
+          header.classList.remove('nav-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
     }
   }
 
