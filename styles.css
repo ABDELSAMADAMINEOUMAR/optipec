@@ -582,14 +582,15 @@ header.nav.nav-open .nav-toggle-bar:nth-child(3) {
 }
 
 .opti-section {
-    padding: 0px !important;
-    position: relative;
+  padding: var(--section-py) 0;
+  position: relative;
 }
 
 /* Alternating backgrounds for clear visual rhythm */
 #about {
   background: var(--clr-bg);
   border-bottom: 1px solid var(--clr-border);
+  padding: 0px !important;
 }
 
 .about-grid {
