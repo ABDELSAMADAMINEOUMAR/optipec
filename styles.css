@@ -1127,7 +1127,7 @@ header.nav.nav-open .nav-toggle-bar:nth-child(3) {
 }
 
 .contact-card-form .btn-pill {
-  background: #111;
+  background: var(--clr-navy);
   color: #fff !important;
   border-radius: var(--radius-pill);
   padding: 12px 14px 12px 24px;
@@ -1138,19 +1138,19 @@ header.nav.nav-open .nav-toggle-bar:nth-child(3) {
   font-size: 15px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(15, 61, 110, 0.1);
   transition: all var(--dur) var(--ease);
 }
 
 .contact-card-form .btn-pill:hover {
-  background: #000;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  background: var(--clr-navy-dark);
+  box-shadow: 0 8px 24px rgba(15, 61, 110, 0.25);
   transform: translateY(-2px);
 }
 
 .contact-card-form .arrow-circle {
   background: #fff;
-  color: #000;
+  color: var(--clr-navy);
   width: 26px;
   height: 26px;
   display: flex;
