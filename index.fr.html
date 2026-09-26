@@ -26,7 +26,7 @@
 <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 <link href="/site.webmanifest" rel="manifest"/>
 <meta content="#1C4E80" name="theme-color"/>
-<link href="./styles.css?v=1.5" rel="stylesheet"/>
+<link href="./styles.css?v=1.6" rel="stylesheet"/>
 <style>
 /* All core styles are now in styles.css — only page-specific overrides here */
 </style>
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // — Scroll-reveal with IntersectionObserver —
-  var revealEls = document.querySelectorAll('.opti-section .opti-container, .opti-card');
+  var revealEls = document.querySelectorAll('.about-content, .about-stat-item, .services-intro, .service-card-horizontal, .opti-card, .contact-info-col, .contact-form-col');
   if ('IntersectionObserver' in window) {
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {

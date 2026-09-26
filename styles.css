@@ -1532,17 +1532,21 @@ footer {
   transform: translateY(0);
 }
 
-/* Stagger cards within a section */
-.opti-card.reveal {
+/* Stagger cards and items within sections */
+.opti-card.reveal, .about-stat-item.reveal, .service-card-horizontal.reveal, .purpose-card.reveal {
   transition-delay: 0ms;
 }
 
-.opti-card.reveal:nth-child(2) {
-  transition-delay: 80ms;
+.opti-card.reveal:nth-child(2), .about-stat-item.reveal:nth-child(2), .service-card-horizontal.reveal:nth-child(2), .purpose-card.reveal:nth-child(2) {
+  transition-delay: 150ms;
 }
 
-.opti-card.reveal:nth-child(3) {
-  transition-delay: 160ms;
+.opti-card.reveal:nth-child(3), .about-stat-item.reveal:nth-child(3), .service-card-horizontal.reveal:nth-child(3), .purpose-card.reveal:nth-child(3) {
+  transition-delay: 300ms;
+}
+
+.opti-card.reveal:nth-child(4), .about-stat-item.reveal:nth-child(4), .service-card-horizontal.reveal:nth-child(4), .purpose-card.reveal:nth-child(4) {
+  transition-delay: 450ms;
 }
 
 
